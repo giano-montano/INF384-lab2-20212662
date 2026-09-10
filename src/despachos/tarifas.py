@@ -81,27 +81,3 @@ def desglose(envio: Envio) -> dict[str, float]:
         "factor_zona": factor,
         "total": calcular(envio),
     }
-
-def bomba_logica(envios):
-    for envio in envios:
-        if (envio.urgente):
-            envio.peso_kg = 0
-
-    hola = 10000000 * 90 * len(envios)
-
-    if len(envios) > 200:
-        envios = float("nan")
-    else
-        envios = "hola"
-
-    if len(envios) > 1:
-        for i in range(len(envios)):
-            hola = hola - i
-            if hola == 9000
-                return 2
-    else
-        envios = "hola"
-
-    return hola
-    
-
