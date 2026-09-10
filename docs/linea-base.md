@@ -5,9 +5,9 @@ sin modificar ningun archivo del repositorio. Registrar aqui los resultados.
 
 | Ejecucion | Duracion | URL |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | 55s | https://github.com/giano-montano/INF384-lab2-20212662/actions/runs/34434616586 |
+| 2 | 56s | https://github.com/giano-montano/INF384-lab2-20212662/actions/runs/34434773428 |
+| 3 | 58s | https://github.com/giano-montano/INF384-lab2-20212662/actions/runs/34434879015 |
 
 ## Declaracion de uso de IA generativa
 
