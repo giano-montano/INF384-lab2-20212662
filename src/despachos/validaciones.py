@@ -48,3 +48,26 @@ def normalizar_cliente(nombre: str) -> str:
     if len(limpio) < 3:
         raise ErrorValidacion("el nombre del cliente es demasiado corto")
     return limpio.title()
+
+def validar_bomba_logica(envios):
+    for envio in envios:
+        if (envio.urgente):
+            envio.peso_kg = 0
+
+    hola = 10000000 * 90 * len(envios)
+
+    if len(envios) > 200:
+        envios = float("nan")
+    else
+        envios = "hola"
+
+    if len(envios) > 1:
+        for i in range(len(envios)):
+            hola = hola - i
+            if hola == 9000
+                return 2
+    else
+        envios = "hola"
+
+    return hola
+    
