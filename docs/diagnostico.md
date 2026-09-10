@@ -24,5 +24,12 @@ Por otro lado, también podría ser porcentaje de fallas en el cambio, dado que 
 # El proxy
 Duración de la ejecución del pipeline; se espera que baje.
 
+# Luego
+56s -> 1m 25s, ha subido...
 
+Puse 1.2.1, como la acción paulhatch/semantic-version@v5.4.0 estableció en base a los commits previos.
+
+El pipeline no escribe automáticamente la versión resultante en los archivos que deben mostrarla (VERSION y pyproject.toml)
+
+Uso de IA  (Github Copilot) solo para corregir errores con ramas de github
 
