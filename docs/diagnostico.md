@@ -9,7 +9,7 @@
 3. Si el primer job "validar" falla, no impide que el job "publicar" se ejecuta, dado que este último no incluye la cláusula "needs". Publica paquetes cuyo código fuente no pasó el análisis de calidad.
 .github/workflows/pipeline.yml:41
 
-4. No existe nombramiento y versionado semántico automático cuando se publica el paquete, sino que se guarda con un nombre genérico "paquete". No hay forma de saber a qué versión se refiere el paquete publicado fuera de otros metadatos, lo que dificulta trazabilidad. Además que la publicación se realiza incluso con el código de otras ramas que no son main.
+4. No existe nombramiento y versionado semántico automático cuando se publica el paquete, sino que se guarda con un nombre genérico "paquete". No hay forma de saber a qué versión se refiere el paquete publicado fuera de otros metadatos, lo que dificulta trazabilidad. Además, la publicación se realiza incluso con el código de otras ramas que no son main.
 .github/workflows/pipeline.yml:64
 
 # Relación con caso transversal
